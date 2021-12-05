@@ -1,7 +1,12 @@
 * {
   /* @font-face {
     font-family: “Gotham Pro”;
-    src: url(‘./font/Gotham Pro Regular.ttf’) format(“truetype”);
+    src: url("../font/1756-font.ttf") format(“truetype”);
+  } */
+
+  /* @font-face {
+    font-family: "Gotham Pro";
+    src: url(../font/GothamProLig.ttf) format(“truetype”);
   } */
 
   margin: 0px;
