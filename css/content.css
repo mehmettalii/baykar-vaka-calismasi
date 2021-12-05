@@ -1,0 +1,1358 @@
+.content {
+  position: absolute;
+  width: 850px;
+  height: 1826px;
+  left: 130px;
+  top: 120px;
+}
+
+.content .profile {
+  position: absolute;
+  width: 850px;
+  height: 360px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+  border-radius: 4px;
+}
+
+.profile .rectangle-3 {
+  position: absolute;
+  width: 850px;
+  height: 180px;
+  left: 0px;
+  top: 0px;
+}
+
+.profile .tools {
+  position: absolute;
+  width: 790px;
+  height: 36px;
+  left: 30px;
+  top: 20px;
+  z-index: 1;
+}
+
+.tools .upload {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 0px;
+  top: 20px;
+
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 10px 30px rgba(113, 123, 133, 0.05);
+  border-radius: 4px;
+
+  opacity: 0.5;
+}
+
+.upload img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 9.5px;
+  top: 9px;
+}
+
+.tools .edit {
+  position: absolute;
+  width: 132px;
+  height: 36px;
+  left: 612px;
+  top: 20px;
+
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 10px 30px rgba(113, 123, 133, 0.05);
+  border-radius: 4px;
+}
+
+.edit img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 9.69px;
+  top: 9.95px;
+}
+
+.edit p {
+  position: absolute;
+  width: 87px;
+  height: 11px;
+  left: 34px;
+  top: 13px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #181818;
+}
+
+.tools .more {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 754px;
+  top: 20px;
+
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 10px 30px rgba(113, 123, 133, 0.05);
+  border-radius: 4px;
+}
+
+.more img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 6px;
+  top: 6px;
+}
+
+.profile .ellipse {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: 25px;
+  top: 160px;
+}
+
+.profile .name {
+  position: absolute;
+  width: 143px;
+  height: 17px;
+  left: 220px;
+  top: 205px;
+
+  font-family: Gotham Pro;
+  font-size: 18px;
+  line-height: 17px;
+
+  color: #181818;
+}
+
+.profile .logo {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 371px;
+  top: 204px;
+
+  /* background: linear-gradient(180deg, #d8c281 0%, #ac9b69 100%); */
+}
+
+.profile .text {
+  position: absolute;
+  width: 583px;
+  height: 42px;
+  left: 220px;
+  top: 237px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  color: #181818;
+}
+
+.profile .connections {
+  position: absolute;
+  width: 170px;
+  height: 32px;
+  left: 405px;
+  top: 293px;
+
+  background: #ffffff;
+  border: 1px solid #0275b1;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.connections p {
+  position: absolute;
+  width: 130px;
+  height: 11px;
+  left: 20px;
+  top: 11px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #0275b1;
+}
+
+.profile .contact {
+  position: absolute;
+  width: 170px;
+  height: 32px;
+  left: 220px;
+  top: 293px;
+
+  background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+  border-radius: 4px;
+}
+
+.contact p {
+  position: absolute;
+  width: 96px;
+  height: 11px;
+  left: 37px;
+  top: 11px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.profile .location {
+  position: absolute;
+  width: 244px;
+  height: 18px;
+  left: 576px;
+  top: 206px;
+}
+
+.location img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 1px;
+}
+
+.location p {
+  position: absolute;
+  width: 220px;
+  height: 18px;
+  left: 24px;
+  top: 0px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  color: #181818;
+}
+
+.content .tabs {
+  position: absolute;
+  width: 850px;
+  height: 100px;
+  left: 0px;
+  top: 381px;
+}
+
+.tabs .profile-tabs {
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+  border-radius: 4px 4px 0px 0px;
+}
+
+.profile-tabs p {
+  position: absolute;
+  width: 55px;
+  height: 11px;
+  left: 93px;
+  top: 21px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.tabs .activity {
+  position: absolute;
+  width: 240px;
+  height: 40px;
+  left: 240px;
+  top: 10px;
+
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+}
+
+.activity p {
+  position: absolute;
+  width: 143px;
+  height: 11px;
+  left: 49px;
+  top: 15px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #181818;
+}
+
+.tabs .articles {
+  position: absolute;
+  width: 240px;
+  height: 40px;
+  left: 480px;
+  top: 10px;
+
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 0px 4px 0px 0px;
+}
+
+.articles p {
+  position: absolute;
+  width: 84px;
+  height: 11px;
+  left: 78px;
+  top: 15px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #181818;
+}
+
+.tabs hr {
+  position: absolute;
+  width: 850px;
+  height: 0px;
+  left: 0px;
+  top: 50px;
+
+  border: 1px solid #e7e7e7;
+}
+
+.tabs .gradient {
+  position: absolute;
+  width: 850px;
+  height: 50px;
+  left: 0px;
+  top: 50px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(241, 244, 248, 0.8) 0%,
+    rgba(241, 244, 248, 0) 100%
+  );
+}
+
+.content .about {
+  position: absolute;
+  width: 850px;
+  height: 170px;
+  left: 0px;
+  top: 461px;
+  background: #ffffff;
+
+  box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+  border-radius: 4px;
+}
+
+.about .text-title {
+  position: absolute;
+  width: 58px;
+  height: 17px;
+  left: 30px;
+  top: 30px;
+
+  font-family: Gotham Pro;
+  font-size: 18px;
+  line-height: 17px;
+
+  color: #181818;
+}
+
+.about .text {
+  position: absolute;
+  width: 790px;
+  height: 42px;
+  left: 30px;
+  top: 62px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  color: #181818;
+}
+
+.about .text-footer {
+  position: absolute;
+  width: 65px;
+  height: 11px;
+  left: 30px;
+  top: 124px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #0275b1;
+}
+
+.content .projects {
+  position: absolute;
+  width: 850px;
+  height: 355px;
+  left: 0px;
+  top: 651px;
+  background: #ffffff;
+  box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+  border-radius: 4px;
+}
+
+.projects .slider-right {
+  position: absolute;
+  width: 13px;
+  height: 28px;
+  left: 827px;
+  top: 138px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #0275b1;
+}
+.projects .slider-left {
+  position: absolute;
+  width: 13px;
+  height: 28px;
+  left: 9px;
+  top: 138px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #0275b1;
+  transform: rotate(180deg);
+}
+
+.projects .projects-title {
+  position: absolute;
+  width: 75px;
+  height: 17px;
+  left: 30px;
+  top: 30px;
+
+  font-family: Gotham Pro;
+  font-size: 18px;
+  line-height: 17px;
+
+  color: #181818;
+}
+
+.projects .projects-info {
+  position: absolute;
+  width: 58px;
+  height: 17px;
+  left: 120px;
+  top: 30px;
+
+  font-family: Gotham Pro;
+  font-size: 18px;
+  line-height: 17px;
+
+  color: #747474;
+}
+
+.projects .zara {
+  position: absolute;
+  width: 250px;
+  height: 216px;
+  left: 30px;
+  top: 72px;
+}
+
+.zara .image {
+  position: absolute;
+  width: 250px;
+  height: 160px;
+  left: 0px;
+  top: 0px;
+}
+
+.zara .ellipse-zara {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 95px;
+  top: 201px;
+
+  background: #ffffff;
+}
+
+.zara .title {
+  position: absolute;
+  width: 159px;
+  height: 21px;
+  left: 0px;
+  top: 175px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  color: #181818;
+}
+
+.zara .text {
+  position: absolute;
+  width: 120px;
+  height: 15px;
+  left: 0px;
+  top: 201px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.projects .safe {
+  position: absolute;
+  width: 250px;
+  height: 216px;
+  left: 300px;
+  top: 72px;
+}
+
+.safe .safe-img {
+  position: absolute;
+  width: 250px;
+  height: 160px;
+  left: 0px;
+  top: 0px;
+}
+
+.safe .safe-title {
+  position: absolute;
+  width: 209px;
+  height: 21px;
+  left: 0;
+  top: 175px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  color: #181818;
+}
+
+.safe .safe-text {
+  position: absolute;
+  width: 130px;
+  height: 15px;
+  left: 0px;
+  top: 201px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.projects .drozd {
+  position: absolute;
+  width: 250px;
+  height: 216px;
+  left: 570px;
+  top: 72px;
+}
+
+.drozd .drozd-img {
+  position: absolute;
+  width: 250px;
+  height: 160px;
+  left: 0px;
+  top: 0px;
+}
+
+.drozd .drozd-title {
+  position: absolute;
+  width: 191px;
+  height: 21px;
+  left: 0px;
+  top: 175px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  color: #181818;
+}
+
+.drozd .drozd-text {
+  position: absolute;
+  width: 134px;
+  height: 15px;
+  left: 0px;
+  top: 201px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.projects .projects-footer {
+  position: absolute;
+  width: 95px;
+  height: 11px;
+  left: 30px;
+  top: 313px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+
+  color: #0275b1;
+}
+
+.content .skills {
+  position: absolute;
+  width: 850px;
+  height: 220px;
+  left: 0px;
+  top: 1026px;
+  background: #ffffff;
+  box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+  border-radius: 4px;
+}
+
+.skills .skills-title {
+  position: absolute;
+  width: 202px;
+  height: 17px;
+  left: 30px;
+  top: 30px;
+
+  font-family: Gotham Pro;
+  font-size: 18px;
+  line-height: 17px;
+
+  color: #181818;
+}
+
+.skills .ux {
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  left: 30px;
+  top: 71px;
+  background: #ffffff;
+  border: 1px solid #f4f4f4;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.ux .ux-title {
+  position: absolute;
+  width: 151px;
+  height: 21px;
+  left: 20px;
+  top: 14px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  color: #181818;
+}
+
+.ux .ux-number {
+  position: absolute;
+  width: 10px;
+  height: 21px;
+  left: 220px;
+  top: 14px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  text-align: right;
+
+  color: #0275b1;
+}
+
+.ux .photo1 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 20px;
+  top: 40px;
+  border-radius: 26px;
+}
+.ux .photo2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 35px;
+  top: 40px;
+  border-radius: 26px;
+}
+.ux .photo3 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 50px;
+  top: 40px;
+  border-radius: 26px;
+}
+.ux .photo4 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 65px;
+  top: 40px;
+  border-radius: 26px;
+}
+.ux .photo5 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 80px;
+  top: 40px;
+  border-radius: 26px;
+}
+.ux .photo6 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 95px;
+  top: 40px;
+  background: #0275b1;
+  border-radius: 26px;
+}
+
+.ux .photo6-text {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  left: 100px;
+  top: 47px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 10px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.skills .ui {
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  left: 300px;
+  top: 71px;
+  background: #ffffff;
+  border: 1px solid #f4f4f4;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.ui .ui-title {
+  position: absolute;
+  width: 130px;
+  height: 21px;
+  left: 20px;
+  top: 14px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: #181818;
+}
+
+.ui .ui-number {
+  position: absolute;
+  width: 9px;
+  height: 21px;
+  left: 221px;
+  top: 14px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+
+  text-align: right;
+
+  color: #0275b1;
+}
+
+.ui .photo1 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 20px;
+  top: 40px;
+  border-radius: 26px;
+}
+.ui .photo2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 35px;
+  top: 40px;
+  border-radius: 26px;
+}
+.ui .photo3 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 50px;
+  top: 40px;
+  border-radius: 26px;
+}
+.ui .photo4 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 65px;
+  top: 40px;
+  border-radius: 26px;
+}
+.ui .photo5 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 80px;
+  top: 40px;
+  border-radius: 26px;
+}
+.ui .photo6 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 95px;
+  top: 40px;
+
+  background: #0275b1;
+  border-radius: 26px;
+}
+
+.ui .photo6-text {
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  left: 100px;
+  top: 47px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 10px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.skills .identity {
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  left: 570px;
+  top: 71px;
+  background: #ffffff;
+  border: 1px solid #f4f4f4;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.skills .identity-title {
+  position: absolute;
+  width: 101px;
+  height: 21px;
+  left: 20px;
+  top: 14px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  color: #181818;
+}
+
+.skills .identity-number {
+  position: absolute;
+  width: 9px;
+  height: 21px;
+  left: 222px;
+  top: 14px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  text-align: right;
+
+  color: #0275b1;
+}
+
+.identity .photo1 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 20px;
+  top: 40px;
+
+  border-radius: 26px;
+}
+.identity .photo2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 35px;
+  top: 40px;
+
+  border-radius: 26px;
+}
+.identity .photo3 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 50px;
+  top: 40px;
+
+  border-radius: 26px;
+}
+.identity .photo4 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 65px;
+  top: 40px;
+
+  border-radius: 26px;
+}
+.identity .photo5 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 80px;
+  top: 40px;
+
+  border-radius: 26px;
+}
+
+.content .experience {
+  position: absolute;
+  width: 850px;
+  height: 345px;
+  left: 0px;
+  top: 1266px;
+  background: #ffffff;
+  box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+  border-radius: 4px;
+}
+
+.experience .experience-title {
+  position: absolute;
+  width: 103px;
+  height: 17px;
+  left: 30px;
+  top: 30px;
+
+  font-family: Gotham Pro;
+  font-size: 18px;
+  line-height: 17px;
+
+  color: #181818;
+}
+
+.experience .freelance {
+  position: absolute;
+  width: 790px;
+  height: 131px;
+  left: 30px;
+  top: 72px;
+}
+
+.freelance .rectangle {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 0px;
+  top: 2px;
+
+  background: linear-gradient(215.49deg, #ffb75e 5.4%, #ed8f03 93.45%);
+  border-radius: 27px;
+}
+
+.freelance .globe {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 11px;
+  top: 13px;
+}
+
+.freelance .title {
+  position: absolute;
+  width: 182px;
+  height: 21px;
+  left: 70px;
+  top: 0px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  color: #181818;
+}
+
+.freelance .self {
+  position: absolute;
+  width: 72px;
+  height: 15px;
+  left: 70px;
+  top: 31px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.freelance .around {
+  position: absolute;
+  width: 87px;
+  height: 15px;
+  left: 152px;
+  top: 31px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.freelance .date {
+  position: absolute;
+  width: 96px;
+  height: 15px;
+  left: 71px;
+  top: 51px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.freelance .time {
+  position: absolute;
+  width: 58px;
+  height: 15px;
+  left: 177px;
+  top: 51px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #0275b1;
+}
+
+.freelance .text {
+  position: absolute;
+  width: 719px;
+  height: 30px;
+  left: 71px;
+  top: 76px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* or 15px */
+
+  color: #181818;
+}
+
+.freelance hr {
+  position: absolute;
+  width: 790px;
+  height: 0px;
+  left: 0px;
+  top: 131px;
+
+  border: 1px solid #f4f4f4;
+}
+
+.experience .up {
+  position: absolute;
+  width: 790px;
+  height: 91px;
+  left: 30px;
+  top: 223px;
+}
+
+.up .up-img {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 0px;
+  top: 2px;
+
+  border-radius: 27px;
+}
+
+.up .title {
+  position: absolute;
+  width: 109px;
+  height: 21px;
+  left: 70px;
+  top: 0px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  color: #181818;
+}
+
+.up .work {
+  position: absolute;
+  width: 39px;
+  height: 15px;
+  left: 70px;
+  top: 31px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.up .international {
+  position: absolute;
+  width: 62px;
+  height: 15px;
+  left: 119px;
+  top: 31px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.up .date {
+  position: absolute;
+  width: 96px;
+  height: 15px;
+  left: 71px;
+  top: 51px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.up .mos {
+  position: absolute;
+  width: 31px;
+  height: 15px;
+  left: 177px;
+  top: 51px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #0275b1;
+}
+
+.up .text {
+  position: absolute;
+  width: 719px;
+  height: 15px;
+  left: 71px;
+  top: 76px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.content .education {
+  position: absolute;
+  width: 850px;
+  height: 195px;
+  left: 0px;
+  top: 1631px;
+  background: #ffffff;
+  box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+  border-radius: 4px;
+}
+
+.education .title {
+  position: absolute;
+  width: 93px;
+  height: 17px;
+  left: 30px;
+  top: 30px;
+
+  font-family: Gotham Pro;
+  font-size: 18px;
+  line-height: 17px;
+
+  color: #181818;
+}
+
+.education .school {
+  position: absolute;
+  width: 790px;
+  height: 91px;
+  left: 30px;
+  top: 72px;
+}
+
+.school .rectangle {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 0px;
+  top: 2px;
+
+  background: #2e2e62;
+  border-radius: 27px;
+}
+
+.school .school-logo {
+  position: absolute;
+  width: 38px;
+  height: 50px;
+  left: 8px;
+  top: 4px;
+  border-radius: 50%;
+}
+
+.school .name {
+  position: absolute;
+  width: 246px;
+  height: 21px;
+  left: 70px;
+  top: 0px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  color: #181818;
+}
+
+.school .branch {
+  position: absolute;
+  width: 501px;
+  height: 15px;
+  left: 70px;
+  top: 31px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.school .year {
+  position: absolute;
+  width: 60px;
+  height: 15px;
+  left: 71px;
+  top: 51px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.school .courses {
+  position: absolute;
+  width: 719px;
+  height: 15px;
+  left: 71px;
+  top: 76px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}

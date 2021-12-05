@@ -1,0 +1,17 @@
+* {
+  /* @font-face {
+    font-family: “Gotham Pro”;
+    src: url(‘./font/Gotham Pro Regular.ttf’) format(“truetype”);
+  } */
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.profilPage {
+  position: relative;
+  width: 1440px;
+  height: 2200px;
+  background: #f7f9fb;
+}

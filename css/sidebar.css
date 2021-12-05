@@ -1,0 +1,653 @@
+.sidebar {
+  position: absolute;
+  width: 290px;
+  height: 1165px;
+  left: 1020px;
+  top: 120px;
+}
+
+.sidebar .dashboard {
+  position: absolute;
+  width: 290px;
+  height: 360px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+  border-radius: 4px;
+}
+
+.dashboard .title {
+  position: absolute;
+  width: 121px;
+  height: 11px;
+  left: 30px;
+  top: 25px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+
+  color: #181818;
+}
+
+.dashboard .link {
+  position: absolute;
+  width: 83px;
+  height: 11px;
+  left: 178px;
+  top: 25px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-align: right;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #0275b1;
+}
+
+.dashboard hr {
+  position: absolute;
+  width: 230px;
+  height: 0px;
+  left: 30px;
+  top: 56px;
+
+  border: 1px solid #f4f4f4;
+}
+
+.dashboard .group2 {
+  position: absolute;
+  width: 98px;
+  height: 71px;
+  left: 30px;
+  top: 76px;
+}
+
+.group2 .counter {
+  position: absolute;
+  width: 98px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Gotham Pro;
+  font-size: 52px;
+  line-height: 50px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #0275b1;
+}
+
+.group2 .day {
+  position: absolute;
+  width: 98px;
+  height: 71px;
+  left: 0px;
+  top: 50px;
+}
+
+.dashboard .group {
+  position: absolute;
+  width: 81px;
+  height: 71px;
+  left: 30px;
+  top: 167px;
+}
+
+.group .counter {
+  position: absolute;
+  width: 53px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Gotham Pro;
+  font-size: 52px;
+  line-height: 50px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #0275b1;
+}
+
+.group .post {
+  position: absolute;
+  width: 81px;
+  height: 21px;
+  left: 0px;
+  top: 50px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  color: #181818;
+}
+
+.dashboard .group1 {
+  position: absolute;
+  width: 138px;
+  height: 71px;
+  left: 30px;
+  top: 258px;
+}
+
+.group1 .counter {
+  position: absolute;
+  width: 35px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Gotham Pro;
+  font-size: 52px;
+  line-height: 50px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #0275b1;
+}
+
+.group1 .search {
+  position: absolute;
+  width: 138px;
+  height: 21px;
+  left: 0px;
+  top: 50px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  color: #181818;
+}
+
+.sidebar .visitors {
+  position: absolute;
+  width: 290px;
+  height: 427px;
+  left: 0px;
+  top: 380px;
+  background: #fcfdfd;
+  border-radius: 4px;
+}
+
+.visitors .title {
+  position: absolute;
+  width: 59px;
+  height: 11px;
+  left: 30px;
+  top: 25px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+
+  color: #181818;
+}
+
+.visitors .link {
+  position: absolute;
+  width: 63px;
+  height: 11px;
+  left: 198px;
+  top: 25px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-align: right;
+  text-transform: uppercase;
+
+  color: #0275b1;
+}
+
+.visitors .group1 {
+  position: absolute;
+  width: 216px;
+  height: 52px;
+  left: 30px;
+  top: 76px;
+}
+
+.group1 .visitors1 {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  border-radius: 26px;
+}
+
+.group1 .name {
+  position: absolute;
+  width: 99px;
+  height: 13px;
+  left: 67px;
+  top: 12px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 13px;
+
+  color: #181818;
+}
+
+.group1 .duty {
+  position: absolute;
+  width: 149px;
+  height: 15px;
+  left: 67px;
+  top: 30px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.visitors .group2 {
+  position: absolute;
+  width: 186px;
+  height: 52px;
+  left: 30px;
+  top: 143px;
+}
+
+.group2 .name {
+  position: absolute;
+  width: 119px;
+  height: 13px;
+  left: 67px;
+  top: 12px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 13px;
+
+  color: #181818;
+}
+
+.group2 .duty {
+  position: absolute;
+  width: 71px;
+  height: 15px;
+  left: 67px;
+  top: 30px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.visitors .group3 {
+  position: absolute;
+  width: 181px;
+  height: 52px;
+  left: 30px;
+  top: 210px;
+}
+
+.group3 .name {
+  position: absolute;
+  width: 114px;
+  height: 13px;
+  left: 67px;
+  top: 12px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 13px;
+
+  color: #181818;
+}
+
+.group3 .duty {
+  position: absolute;
+  width: 96px;
+  height: 15px;
+  left: 67px;
+  top: 30px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.visitors .group4 {
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 30px;
+  top: 277px;
+}
+
+.group4 .name {
+  position: absolute;
+  width: 79px;
+  height: 13px;
+  left: 67px;
+  top: 12px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 13px;
+
+  color: #181818;
+}
+
+.group4 .duty {
+  position: absolute;
+  width: 132px;
+  height: 15px;
+  left: 67px;
+  top: 30px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.visitors .group5 {
+  position: absolute;
+  width: 195px;
+  height: 52px;
+  left: 30px;
+  top: 344px;
+}
+
+.group5 .name {
+  position: absolute;
+  width: 128px;
+  height: 13px;
+  left: 67px;
+  top: 12px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 13px;
+
+  color: #181818;
+}
+
+.group5 .duty {
+  position: absolute;
+  width: 103px;
+  height: 15px;
+  left: 67px;
+  top: 30px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.sidebar .courses {
+  position: absolute;
+  width: 290px;
+  height: 338px;
+  left: 0px;
+  top: 827px;
+  background: #fcfdfd;
+  border-radius: 4px;
+}
+
+.courses .title {
+  position: absolute;
+  width: 198px;
+  height: 11px;
+  left: 30px;
+  top: 25px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+
+  color: #181818;
+}
+
+.courses hr {
+  position: absolute;
+  width: 230px;
+  height: 0px;
+  left: 30px;
+  top: 56px;
+
+  border: 1px solid #f4f4f4;
+}
+
+.courses .group1 {
+  position: absolute;
+  width: 228px;
+  height: 198px;
+  left: 30px;
+  top: 76px;
+}
+
+.group1 .image {
+  position: absolute;
+  width: 80px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  border-radius: 2px;
+}
+
+.group1 .courses-rectangle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 31px;
+  top: 17px;
+
+  background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+  border-radius: 2px;
+}
+
+.group1 .play {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 38.08px;
+  top: 22.25px;
+}
+
+.group1 .courses-title {
+  position: absolute;
+  width: 118px;
+  height: 36px;
+  left: 95px;
+  top: 0px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 125%;
+  /* or 17px */
+
+  color: #181818;
+}
+
+.group1 .info {
+  position: absolute;
+  width: 73px;
+  height: 15px;
+  left: 95px;
+  top: 41px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.courses .group2 {
+  position: absolute;
+  width: 228px;
+  height: 56px;
+  left: 30px;
+  top: 147px;
+}
+
+.group2 .image {
+  position: absolute;
+  width: 80px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  border-radius: 2px;
+}
+
+.group2 .courses-rectangle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 31px;
+  top: 17px;
+
+  background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+  border-radius: 2px;
+}
+
+.group2 .play {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 38.08px;
+  top: 22.25px;
+}
+
+.group2 .courses-title {
+  position: absolute;
+  width: 133px;
+  height: 36px;
+  left: 95px;
+  top: 0px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 125%;
+  /* or 17px */
+}
+
+.group2 .info {
+  position: absolute;
+  width: 65px;
+  height: 15px;
+  left: 95px;
+  top: 41px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.courses .group3 {
+  position: absolute;
+  width: 213px;
+  height: 56px;
+  left: 30px;
+  top: 218px;
+}
+
+.group3 .image {
+  position: absolute;
+  width: 80px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  border-radius: 2px;
+}
+
+.group3 .courses-rectangle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 31px;
+  top: 17px;
+
+  background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+  border-radius: 2px;
+}
+
+.group3 .play {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 38.08px;
+  top: 22.25px;
+}
+
+.group3 .courses-title {
+  position: absolute;
+  width: 133px;
+  height: 36px;
+  left: 95px;
+  top: 0px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 125%;
+  /* or 17px */
+}
+
+.group3 .info {
+  position: absolute;
+  width: 65px;
+  height: 15px;
+  left: 95px;
+  top: 41px;
+
+  font-family: Gotham Pro;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  color: #181818;
+}
+
+.courses .courses-link {
+  position: absolute;
+  width: 175px;
+  height: 11px;
+  left: 30px;
+  top: 299px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+
+  color: #0275b1;
+}

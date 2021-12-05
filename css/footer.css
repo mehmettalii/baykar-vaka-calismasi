@@ -1,0 +1,256 @@
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 215px;
+  left: 0px;
+  top: 1986px;
+  background: #f7f9fb;
+}
+
+.footer .sep {
+  position: absolute;
+  width: 1440px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(241, 244, 248, 0.8) 0%,
+    rgba(241, 244, 248, 0) 100%
+  );
+}
+
+.sep hr {
+  position: absolute;
+  width: 1440px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #e7e7e7;
+}
+
+.footer .logo {
+  position: absolute;
+  width: 61px;
+  height: 79px;
+  left: 130px;
+  top: 30px;
+}
+
+.logo .footer-logo {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+}
+
+.logo .logo-name {
+  position: absolute;
+  width: 61px;
+  height: 21px;
+  left: 0px;
+  top: 58px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  color: #181818;
+}
+
+.footer .footer-navigation {
+  position: absolute;
+  width: 66px;
+  height: 11px;
+  left: 260px;
+  top: 35px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+
+  color: #181818;
+}
+
+.footer .about {
+  position: absolute;
+  width: 135px;
+  height: 86px;
+  left: 260px;
+  top: 76px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+
+  color: #181818;
+}
+
+.footer .talent {
+  position: absolute;
+  width: 135px;
+  height: 86px;
+  left: 430px;
+  top: 76px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+
+  color: #181818;
+}
+
+.footer .community {
+  position: absolute;
+  width: 135px;
+  height: 61px;
+  left: 610px;
+  top: 76px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+
+  color: #181818;
+}
+
+.footer .access {
+  position: absolute;
+  width: 170px;
+  height: 108px;
+  left: 810px;
+  top: 35px;
+}
+
+.access .text {
+  position: absolute;
+  width: 69px;
+  height: 11px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+
+  color: #181818;
+}
+
+.access .footer-rectangle {
+  position: absolute;
+  width: 170px;
+  height: 32px;
+  left: 0px;
+  top: 34px;
+
+  background: #0275b1;
+  border: 1px solid #0275b1;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.access .question {
+  position: absolute;
+  width: 81px;
+  height: 11px;
+  left: 15px;
+  top: 45px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.access .footer-help {
+  position: absolute;
+  left: 145.06px;
+  top: 42px;
+}
+
+.access .footer-rectangle2 {
+  position: absolute;
+  left: 0px;
+  top: 76px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.access .settings {
+  position: absolute;
+  width: 62px;
+  height: 11px;
+  left: 15px;
+  top: 87px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+
+  color: #0275b1;
+}
+
+.access .footer-settings {
+  position: absolute;
+  left: 145.06px;
+  top: 84.82px;
+}
+
+.footer .languages {
+  position: absolute;
+  width: 270px;
+  height: 66px;
+  left: 1040px;
+  top: 35px;
+}
+
+.languages .languages-text {
+  position: absolute;
+  width: 60px;
+  height: 11px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+
+  color: #181818;
+}
+
+.languages .language-rectangle {
+  position: absolute;
+  width: 270px;
+  height: 66px;
+  left: 0px;
+  top: 15px;
+
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.languages .language-arrow {
+  position: absolute;
+  left: 244.5px;
+  top: 42px;
+}
+
+.languages .language-name {
+  position: absolute;
+  width: 270px;
+  height: 66px;
+  left: 15px;
+  top: 44px;
+
+  font-family: Gotham Pro;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+
+  color: #181818;
+}
